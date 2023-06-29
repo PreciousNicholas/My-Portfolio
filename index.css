@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --bg-color:#010946;
+    --h-color:#0B2447;
+    --text-color:#ffffff;
+    --hover-color:#d0cfcf;
+}
+/* .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+body{
+    background-color: var(--bg-color);
+}
+nav{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--text-color);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: var(--hover-color);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 40px;
+}
+
+h1{
+    font-size: 50px;
+    color: var(--text-color);
+
+}
+
+h3{
+    font-size: 30px;
+    color: var(--text-color);
+    margin-left: 40px;
+}
+
+span{
+    color: #f1177d;
+    font-size: 25px;
+}
+
+hr{
+    border: 0.06px solid #fff;
+    width: 90px;
+    margin: 20px 0px;
+    margin-left: 40px;
+}
+
+p{
+    margin: 20px 0px;
+    color: #b0b0b0;
+    max-width: 45ch;
+    margin-left: 40px;
+}
+.btn{
+    background: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+.girl{
+    margin-right: 40px;
+}
+.apple{
+    margin-left: 40px;
+}
+.btn:hover{
+    background: var(--h-color);
+}
+
+.social{
+    position: absolute;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.social a:hover{
+    color: var(--h-color);
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background: transparent;
+}
+
+.footer .te-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.footer img{
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.fa-brands fa-whatsapp{
+    font-size: 19px;
+    margin-right: 6px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.link{
+    color: #f1177d;
+}
